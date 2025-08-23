@@ -1,0 +1,64 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("img/fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #e0f7fa;
+}
+
+/* Banner */
+.banner {
+  width: 1080px;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 15px;
+  background: url("img/banner.jpg") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 4px 25px rgba(0, 200, 255, 0.6);
+  border: 2px solid #00cfff;
+}
+
+/* Contenido */
+.contenido {
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px;
+  background: rgba(0, 0, 20, 0.7);
+  border-radius: 12px;
+  border: 1px solid #007bff;
+  box-shadow: 0 0 25px rgba(0, 150, 255, 0.5);
+}
+
+.contenido h1 {
+  color: #00cfff;
+  text-shadow: 0 0 8px #00cfff;
+  border-bottom: 1px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.contenido p {
+  line-height: 1.6;
+  color: #b3e5fc;
+}
+
+/* Galería */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px auto;
+  max-width: 1080px;
+}
+.galeria img {
+  width: 330px;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #00cfff;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.galeria img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 40px rgba(0, 200, 255, 1);
+}
